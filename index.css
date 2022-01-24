@@ -1,7 +1,13 @@
+:root {
+  --backgroundColor: rgb(25, 25, 26);
+  --HeaderColor: rgb(24, 23, 23);
+}
+
 body {
-  color: green;
+  color: var(--backgroundColor);
 }
 
 p {
   color: white;
+  width: clamp(45ch, 50%, 75ch);
 }
