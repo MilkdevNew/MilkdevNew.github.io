@@ -5,6 +5,7 @@
 
 body {
   color: var(--backgroundColor);
+  font-family: "Ubuntu", sans-serif;
 }
 
 p {
