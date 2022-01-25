@@ -3,6 +3,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: var(--backgroundColor);
   font-family: "Ubuntu", sans-serif;
 }
@@ -16,7 +18,9 @@ p {
 header {
   background-color: rgb(247, 127, 0);
   border: none;
-  width: 90px;
   outline: none;
+  color: white;
   font-size: 25px;
+  text-align: center;
+  padding: 15px;
 }
