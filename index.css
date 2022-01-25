@@ -12,3 +12,11 @@ p {
   width: clamp(45ch, 50%, 75ch);
   font-family: "Ubuntu", sans-serif;
 }
+
+header {
+  background-color: rgb(247, 127, 0);
+  border: none;
+  width: 90px;
+  outline: none;
+  font-size: 25px;
+}
