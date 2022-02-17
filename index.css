@@ -1,5 +1,5 @@
 :root {
-  --backgroundColor: rgb(52, 58, 64);
+  --backgroundColor: rgb(22, 25, 29);
 }
 
 body {
@@ -10,9 +10,14 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
 p {
   color: white;
-  width: clamp(45ch, 50%, 75ch);
   font-family: "Ubuntu", sans-serif;
 }
 
